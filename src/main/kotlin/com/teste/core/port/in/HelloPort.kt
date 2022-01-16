@@ -1,4 +1,4 @@
-package com.teste.port.`in`
+package com.teste.core.port.`in`
 
 import io.micronaut.http.annotation.Controller
 import io.micronaut.http.annotation.Get

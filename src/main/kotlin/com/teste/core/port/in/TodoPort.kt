@@ -1,10 +1,10 @@
-package com.teste.port.`in`
+package com.teste.core.port.`in`
 
 import com.teste.config.usercontext.UserContextHolder
 import com.teste.config.usercontext.UserContextModel
-import com.teste.port.`in`.transferobject.TodoRequest
-import com.teste.port.`in`.transferobject.TodoResponse
-import com.teste.port.out.Send
+import com.teste.core.port.`in`.transferobject.TodoRequest
+import com.teste.core.port.`in`.transferobject.TodoResponse
+import com.teste.core.port.out.Send
 import com.teste.infra.persistence.mysql.entity.TodoEntity
 import com.teste.infra.persistence.mysql.repository.TodoRepository
 import io.micronaut.http.HttpResponse
