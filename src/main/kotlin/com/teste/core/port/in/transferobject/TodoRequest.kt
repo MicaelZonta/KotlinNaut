@@ -4,7 +4,7 @@ import io.micronaut.core.annotation.Introspected
 
 @Introspected
 data class TodoRequest(
-    val id: Long?,
-    val des: String,
-    val done: Boolean
+    val order_id: Int,
+    val product_id: Int,
+    val amount: Int
 )
