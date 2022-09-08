@@ -2,12 +2,14 @@ micronaut:
   application:
     name: kotlinaut
     
-datasources:
-  default:
-    url: jdbc:mysql://localhost:3307/testando
-    username: root
-    password: root
-    dialect: MYSQL
+##datasources:
+##  default:
+##   url: jdbc:mysql://localhost:3307/testando
+##   username: root
+##  password: root
+##  dialect: MYSQL
+##  validation-query: "SELECT 1"
+##  connection-test-query: "SELECT 1"
 
 jpa:
   default:
@@ -18,4 +20,4 @@ jpa:
         physical_naming_strategy: 'org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl'
         hbm2ddl:
           auto: validate
-        show_sql: trueK
+        show_sql: true
